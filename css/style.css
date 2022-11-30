@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #083b4c;
+}
+
+h1{
+    font-size: 58px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.container {
+    background-color: #083b4c;
+    margin: 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 850px;
+}
+
+.square {
+    height: 65px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: .5rem;
+}
+
+.txt-algn{
+    text-align: center;
+}
+
+.square-yellow{
+    background-color: #ffd166 ;
+}
+
+.square-dark{
+    background-color: rgb(0, 81, 134);
+}
+
+.square-aqua{
+    background-color: #0cd6a1;
+}
+
+.square-red{
+    background-color: crimson;
+}
